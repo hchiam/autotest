@@ -1,7 +1,6 @@
-# command in Command-line / Terminal to run the test:
-# python ut.py
+# based on http://docs.python-guide.org/en/latest/writing/tests/
 
-# or for more detail:
+# To run the test using unittest, enter this command in Command-line / Terminal:
 # python ut.py -v
 
 import unittest
