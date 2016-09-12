@@ -15,6 +15,8 @@ def test_this():
     assert myfun(3) == 9
 
 def test_that():
+    myvar = myfun(0)
     assert myfun(1) == 1
     assert myfun(2) == 4
+    assert myvar == 0
     assert myfun(3) == 5 # should cause error
